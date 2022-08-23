@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3dbe08bc.css",
+    "main.js": "/static/js/main.cc96ec98.js",
+    "static/media/omoerin.jpg": "/static/media/omoerin.1866b0c0a87f91bba56c.jpg",
+    "index.html": "/index.html",
+    "main.3dbe08bc.css.map": "/static/css/main.3dbe08bc.css.map",
+    "main.cc96ec98.js.map": "/static/js/main.cc96ec98.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dbe08bc.css",
+    "static/js/main.cc96ec98.js"
+  ]
+}

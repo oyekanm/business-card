@@ -31,15 +31,15 @@ export default function Card() {
           <p className="Business__text">
             I am a frontend developer with a particular interest in making
             things simple and automating daily tasks. I try to keep up with
-            security and best practices, and am always looking for new things to
-            learn.
+            security and best practices, and i'm always looking for new things
+            to learn.
           </p>
         </div>
         <div className="Business__aim">
           <p className="Business__title">Interests</p>
           <p className="Business__text">
             Food junkie. Music lover. Reader. Internet fanatic. Song writing.
-            Entrepreneur. Travel geek. Gaming(football games mostly). Football.
+            Travel geek. Gaming(football games mostly). Football.
           </p>
         </div>
       </div>
