@@ -1,13 +1,118 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+  font-family: "Inter";
+}
+.Business {
+  background: #23252c;
+  max-width: 500px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 5% 0;
+}
+.Business__card {
+  width: 320px;
+  margin: 0 auto;
+}
+.Business__img {
+  background: url(./img/omoerin.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 300px 0 0;
+  border-radius: 10px 10px 0px 0px;
+}
+.Business__info {
+  background: #1a1b21;
+  padding: 30px;
+}
+.Business__about {
+  text-align: center;
+}
+.Business__name {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.Business__role {
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 25px;
+  color: #f3bf99;
+}
+.Business__portfolio,
+.Business__portfolio:link,
+.Business__portfolio:hover,
+.Business__portfolio:active,
+.Business__portfolio:visited {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 45px;
+  color: #f5f5f5;
+  text-decoration: none;
+}
+.Business__button {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  padding: 8px 20px;
+  cursor: pointer;
+  /* width: 50%; */
+  /* display: inline-block; */
+}
+.Business__link,
+.Business__link:link,
+.Business__link:hover,
+.Business__link:active,
+.Business__link:visited {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #374151;
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Business__goal {
+  margin-top: 40px;
+}
+.Business__aim {
+  margin-bottom: 5px;
+}
+.Business__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #f5f5f5;
+}
+.Business__text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #dcdcdc;
+}
+.mail {
+  margin-right: 8px;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: hsl(240, 6%, 9%);
+  border-radius: 0px 0px 10px 10px;
+}
+.social__media {
+  margin: 0 10px;
+}
+
+@media only screen and (max-width: 320px) {
+  .Business {
+    width: 320px;
+  }
 }
